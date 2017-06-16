@@ -1,8 +1,8 @@
 <img src="https://www.dropbox.com/s/7ghf1kl7crp5bvy/CbLogoIcon.png?raw=1" height="80" />
 
-[![Build Status](https://travis-ci.org/CloudBoost/cloudboost.svg?branch=master)](https://travis-ci.org/CloudBoost/cloudboost)
+[![Build Status](https://travis-ci.org/nodedataCloud/nodedataCloud.svg?branch=master)](https://travis-ci.org/nodedataCloud/nodedataCloud)
 
-CloudBoost is the Complete NoSQL Database Service for your app. **Think of CloudBoost as Parse + Firebase + Algolia + Iron.io all combined into one** :
+nodedataCloud is the Complete NoSQL Database Service for your app. **Think of nodedataCloud as Parse + Firebase + Algolia + Iron.io all combined into one** :
  - Data-Storage / JSON Storage / BLOB Storage
  - 100% data ownership
  - Realtime 
@@ -11,60 +11,60 @@ CloudBoost is the Complete NoSQL Database Service for your app. **Think of Cloud
  - Queues
  - More - ACL's, User Authentication, Server-less apps and more. 
  
-###Deploy CloudBoost to Heroku
+###Deploy nodedataCloud to Heroku
  
-Use this button to connect your Heroku app with CloudBoost. 
+Use this button to connect your Heroku app with nodedataCloud. 
 
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://elements.heroku.com/addons/cloudboost)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://elements.heroku.com/addons/nodedataCloud)
 
-###Deploy CloudBoost with Docker Cloud
+###Deploy nodedataCloud with Docker Cloud
  
-Use this button to deploy CloudBoost to any cloud with Docker Cloud.
+Use this button to deploy nodedataCloud to any cloud with Docker Cloud.
 
-[![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://github.com/CloudBoost/docker)
+[![Deploy to Docker Cloud](https://files.cloud.docker.com/images/deploy-to-dockercloud.svg)](https://github.com/nodedataCloud/docker)
 
-###Deploy CloudBoost to Azure
+###Deploy nodedataCloud to Azure
  
-Use this button to deploy CloudBoost to Azure with Docker Cloud.
+Use this button to deploy nodedataCloud to Azure with Docker Cloud.
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://github.com/CloudBoost/docker)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://github.com/nodedataCloud/docker)
 
-###Deploy CloudBoost to AWS
+###Deploy nodedataCloud to AWS
  
-[Install CloudBoost on AWS](https://github.com/CloudBoost/docker)
+[Install nodedataCloud on AWS](https://github.com/nodedataCloud/docker)
 
-###Deploy CloudBoost to DigitalOcean
+###Deploy nodedataCloud to DigitalOcean
  
-Use this button to deploy CloudBoost to Digital Ocean with Docker Cloud.
+Use this button to deploy nodedataCloud to Digital Ocean with Docker Cloud.
 
-[![Install on DigitalOcean](http://installer.71m.us/button.svg)](https://github.com/CloudBoost/docker)
+[![Install on DigitalOcean](http://installer.71m.us/button.svg)](https://github.com/nodedataCloud/docker)
 
-###Deploy CloudBoost to SoftLayer
+###Deploy nodedataCloud to SoftLayer
  
-[Install CloudBoost on SoftLayer](https://github.com/CloudBoost/docker)
+[Install nodedataCloud on SoftLayer](https://github.com/nodedataCloud/docker)
 
-###Deploy CloudBoost to Packet
+###Deploy nodedataCloud to Packet
  
-[Install CloudBoost on Packet](https://github.com/CloudBoost/docker)
+[Install nodedataCloud on Packet](https://github.com/nodedataCloud/docker)
 
 
-#CloudBoost Indexing Backends
+#nodedataCloud Indexing Backends
 
-CloudBoost runs on MongoDB and Redis. You're responsible for managing the uptime, backups of your data in each of these databases. If you're running production apps. We recommend you to use the hosted service instead. Please check out CloudBoost.io 
+nodedataCloud runs on MongoDB and Redis. You're responsible for managing the uptime, backups of your data in each of these databases. If you're running production apps. We recommend you to use the hosted service instead. Please check out nodedataCloud.io 
 
 #Running the server with Docker (Recommended) 
 
-The easiest way to run the server is by using Docker. Check https://github.com/cloudboost/docker
+The easiest way to run the server is by using Docker. Check https://github.com/nodedataCloud/docker
 
 #Running the server without Docker
 
 ###Step 1 : Git clone the project. 
 
-`git clone https://github.com/CloudBoost/cloudboost.git`
+`git clone https://github.com/nodedataCloud/nodedataCloud.git`
 
-###Step 2 : Change directory to CloudBoost. 
+###Step 2 : Change directory to nodedataCloud. 
 
-`cd cloudboost`
+`cd nodedataCloud`
 
 ###Step 3 : NPM Install. 
 
@@ -72,9 +72,9 @@ The easiest way to run the server is by using Docker. Check https://github.com/c
 
 Note : NPM requires NodeJS to be installed on your machine. If you don't have NodeJS, you need to install it from here : https://nodejs.org/en/download/
 
-###Step 4 : Edit cloudboost.json. 
+###Step 4 : Edit nodedataCloud.json. 
 
-Create a `config` folder in project root if it does not exist.  You need to create a new file `cloudboost.json` under `config` folder and save that file with MongoDB and Redis configuration. Here's a sample file : 
+Create a `config` folder in project root if it does not exist.  You need to create a new file `nodedataCloud.json` under `config` folder and save that file with MongoDB and Redis configuration. Here's a sample file : 
 
 ```
 {
@@ -91,15 +91,15 @@ Create a `config` folder in project root if it does not exist.  You need to crea
 
 ###Step 6 : Edit smtp.json. 
 
-In the `config` folder. Creare a new file called `smtp.json`. You need to create an account at MailGun (https://www.mailgun.com/) and get an API Key. This will help CloudBoost to send emails on your behalf. Here's a quick example : 
+In the `config` folder. Creare a new file called `smtp.json`. You need to create an account at MailGun (https://www.mailgun.com/) and get an API Key. This will help nodedataCloud to send emails on your behalf. Here's a quick example : 
 
 ```
 {
   "provider"  : "mailgun",		
   "apiKey"    : "XXXXXXXXXXXXXXXXXXXXXXX",
-  "domain"    : "cloudboost.io",
-  "fromEmail" : "hello@cloudboost.io",
-  "fromName"  : "CloudBoost.io"  
+  "domain"    : "nodedataCloud.io",
+  "fromEmail" : "hello@nodedataCloud.io",
+  "fromName"  : "nodedataCloud.io"  
 }
 ```
 
@@ -109,16 +109,16 @@ If you want to enable HTTPS, place your certificate file `cert.crt` and key `key
 
 ###Step 7 : Run the server. 
 
-Make sure both Redis and MongoDB are running and then run the CloudBoost server  
+Make sure both Redis and MongoDB are running and then run the nodedataCloud server  
 
 `node server.js`
 
-Once the server is running. You'll see the ClusterKey and SecureKey on the console whcih means you've successfully CloudBoost. If you don't see any of these keys, please raise a GitHub issue and let us know. 
+Once the server is running. You'll see the ClusterKey and SecureKey on the console whcih means you've successfully nodedataCloud. If you don't see any of these keys, please raise a GitHub issue and let us know. 
 
 
 #Once the server is running, You can 
 
-Once started, you'll see the CloudBoost Secure Key on the console. This is important, Please save it for future use.
+Once started, you'll see the nodedataCloud Secure Key on the console. This is important, Please save it for future use.
 Secure Key helps you create / delete apps. 
 
 ###Create an app
@@ -169,14 +169,14 @@ for example :
         }
 ```
 
-Once your app is ready, You can then get the latest SDK from  https://tutorials.cloudboost.io. Remember to save the SDK in your project. and You can then init your app by :
+Once your app is ready, You can then get the latest SDK from  https://tutorials.nodedataCloud.io. Remember to save the SDK in your project. and You can then init your app by :
 
 `CB.CloudApp.init('Your Server URL', 'Your App ID', 'Your App Key');`
 
-You can then follow rest of the documentation from https://tutorials.cloudboost.io. You can also check out API Reference on https://docs.cloudboost.io
+You can then follow rest of the documentation from https://tutorials.nodedataCloud.io. You can also check out API Reference on https://docs.nodedataCloud.io
 
 #App Settings
-To read more about app settings, check [Click here](https://github.com/CloudBoost/cloudboost/tree/master/docs/app-settings) 
+To read more about app settings, check [Click here](https://github.com/nodedataCloud/nodedataCloud/tree/master/docs/app-settings) 
 
 #Contributing
 
@@ -187,7 +187,7 @@ We'd love to hear your feedback and suggestions in the issue tracker.
 
 #LICENSE
 
-Copyright 2016 HackerBay, Inc.
+Copyright 2016 Talentica Software, india.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
