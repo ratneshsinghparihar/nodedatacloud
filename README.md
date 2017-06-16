@@ -1,4 +1,4 @@
-<img src="https://www.dropbox.com/s/7ghf1kl7crp5bvy/CbLogoIcon.png?raw=1" height="80" />
+<img src="https://media.glassdoor.com/sqll/341946/talentica-squarelogo-1491298817945.png" height="80" />
 
 [![Build Status](https://travis-ci.org/nodedataCloud/nodedataCloud.svg?branch=master)](https://travis-ci.org/nodedataCloud/nodedataCloud)
 
